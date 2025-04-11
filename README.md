@@ -38,7 +38,7 @@ Most machine learning tools (like scikit-learn, TensorFlow, etc.) are black boxe
    - Measure the performance using MSE (how far off predictions are from actual `y` values).
 
 5. **Implement K fold**
-   - We keep the value of `k=4.`
+   - We keep the value of `k=3.`
    - This way, we are able to compare the results we obtained before `K Fold` and After K Fold Cross Validation.
 
 Results before K Fold:
@@ -50,7 +50,8 @@ Results after K Fold:
 ```
 NdLinear average MSE: 2.3665987354604794
 nn.Linear average MSE: 2.4035062378541854
-```
+
 As we can see, firstly Ndlinear reduces the MSE error as compared to the nn.linear. Over the top of that, if we implement K Fold Cross validation, then we can reduce the error further more.
+```
 ---
 
